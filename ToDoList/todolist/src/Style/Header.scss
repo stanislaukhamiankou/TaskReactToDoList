@@ -1,0 +1,18 @@
+@import './ToDoList.scss';
+
+$width_div: 500px;
+
+#todo-list {
+    width: $width_div;
+    margin: 60px auto;
+
+    h1 {
+        text-align: center;
+        background-color: $color-blue;
+        padding: 20px;
+    }
+
+    .button_nav{
+        margin-right: 5%;
+    }
+}
